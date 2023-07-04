@@ -46,8 +46,11 @@ Você pode contribuir para o projeto seguindo os passos abaixo:
 
 ## Autores
 
-- Elise Flaneuse(https://github.com/eliseflaneuse))
-- 
+- Elise Flaneuse(https://github.com/eliseflaneuse)
+-
+-
+-
+- Leandro Andrade (https://github.com/leands0)
 
 ## Contato
 Para entrar em contato com os desenvolvedores do projeto, envie um email para [eliseflaneuse@gmail.com](mailto:eliseflaneuse@gmail.com)
