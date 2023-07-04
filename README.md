@@ -47,7 +47,7 @@ Você pode contribuir para o projeto seguindo os passos abaixo:
 ## Autores
 
 - Elise Flaneuse(https://github.com/eliseflaneuse)
--
+- Camila Ramos (https://github.com/kmikazze)
 -
 -
 - Leandro Andrade (https://github.com/leands0)
