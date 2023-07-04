@@ -3,8 +3,7 @@ Backend do Projeto Integrador Generation Brasil T65
 
 ## Descrição
 O projeto Conexão Ybyra é uma aplicação Java que utiliza o framework Spring Boot, o banco de dados MySQL e o Insomnia para testes CRUD. 
-O objetivo do projeto é fornecer uma API para gerenciar produtos e categorias de uma loja de games, permitindo a realização de operações de criação, 
-leitura, atualização e exclusão de registros.
+O objetivo do projeto é fornecer uma API 
 
 ## Funcionalidades
 - CRUD completo para o recurso Postagem, com 6 métodos: criar, ler, atualizar e excluir produtos.
