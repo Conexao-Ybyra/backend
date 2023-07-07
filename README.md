@@ -1,6 +1,8 @@
 # Projeto Conexão Ybyra 
 Backend do Projeto Integrador Generation Brasil T65
 
+![db_conexao_ybyra](https://github.com/Conexao-Ybyra/backend/assets/113945437/64b2f7b2-571f-4449-a2ef-99a91fd8c655)
+
 ## Descrição
 O projeto Conexão Ybyra é uma aplicação Java que utiliza o framework Spring Boot, o banco de dados MySQL e o Insomnia para testes CRUD. 
 O objetivo do projeto é fornecer uma API para uma rede social que conecta usuários e atividades em parques e praças públicas. (revisar)
