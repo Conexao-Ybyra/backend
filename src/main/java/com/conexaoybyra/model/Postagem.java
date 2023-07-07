@@ -6,9 +6,14 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import jakarta.persistence.*;
-import jakarta.validation.*;
-import jakarta.validation.constraints.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "tb_postagens")
@@ -17,32 +22,35 @@ public class Postagem {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	@NotBlank
 	@Size(min = 3, max = 100, message = "O título deve conter entre 3 e 100 caracteres.")
 	private String titulo;
-	
+
 	@NotBlank
 	@Size(min = 5, max = 1000, message = "O conteúdo deve conter entre 5 e 1000 caracteres.")
 	private String conteudo;
-	
+
 	@NotBlank
 	@Size(min = 1, max = 255)
 	private String localizacao;
-	
+
 	@UpdateTimestamp
 	private LocalDateTime data;
-	
+
 	@Size(min = 1, max = 255)
 	private String midia;
 
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Tema tema;
-	
-	
+
+	@ManyToOne
+	@JsonIgnoreProperties("postagem")
+	private Usuario usuario;
+
 //	Métodos Getters e Setters
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -98,5 +106,13 @@ public class Postagem {
 	public void setTema(Tema tema) {
 		this.tema = tema;
 	}
-		
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
 }
