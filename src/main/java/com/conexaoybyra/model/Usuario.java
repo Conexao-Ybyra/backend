@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -27,7 +28,8 @@ public class Usuario {
 	@NotNull(message = "O atributo nome é obrigatório!")
 	@Size(max = 255, message = "O atributo nome deve ter no máximo 255 caracteres")
 	private String nome;
-
+	
+	@Schema(example = "email@email.com.br")
 	@NotNull(message = "O atributo e-mail é obrigatório!")
 	@Size(max = 255, message = "O atributo e-mail deve ter no máximo 255 caracteres")
 	@Email(message = "O atributo e-mail deve ser um e-mail válido!")
