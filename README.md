@@ -48,14 +48,13 @@ Você pode contribuir para o projeto seguindo os passos abaixo:
 
 ## Autores
 
-- Elise Flaneuse(https://github.com/eliseflaneuse)
 - Camila Ramos (https://github.com/kmikazze)
--
--
+- Caroline Braz (https://github.com/carolinebraz)
+- Elise Flaneuse (https://github.com/eliseflaneuse)
 - Leandro Andrade (https://github.com/leands0)
 
 ## Contato
-Para entrar em contato com os desenvolvedores do projeto, envie um email para [eliseflaneuse@gmail.com](mailto:eliseflaneuse@gmail.com)
+Para entrar em contato com os desenvolvedores do projeto, envie um email para [conexaoybyra@gmail.com](mailto:conexaoybyra@gmail.com)
 
 
 
